@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* common css end */
+/* nav part css start  */
+.nav {
+  height: 120px;
+}
+.nav_main {
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+.logo {
+  width: 15%;
+}
+.menu {
+  width: 50%;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li a {
+  font-family: "Poppins", sans-serif;
+  padding: 0 24px;
+}
+.register {
+  width: 35%;
+}
+.btn {
+  text-align: end;
+}
+.btn button {
+  padding: 10px 20px;
+  background-color: #28b0a6;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+  border: 2px solid transparent;
+  color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn button:hover {
+  background-color: transparent;
+  border: 2px solid #28b0a6;
+  color: #222;
+}
+/* nav part css end */
+/* banner part start  */
+.banner_img {
+  background: url(../images/banner.jpg) no-repeat center / cover;
+  padding: 100px 0 200px 0;
+}
+.banner_main {
+  display: flex;
+}
+.banner_left {
+  width: 50%;
+}
+.banner_right {
+  width: 50%;
+  text-align: right;
+}
+.banner_inner_right {
+  width: 250px;
+  margin-left: auto;
+  margin-right: 50px;
+  position: relative;
+  text-align: left;
+}
+.banner_inner_right p {
+  line-height: 24px;
+}
+.banner_inner_right i {
+  position: absolute;
+  left: -50px;
+  top: 0px;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+}
+.banner_inner_right a {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2px;
+}
+.banner_inner_icon {
+  transform: translateY(-50%) rotate(-90deg);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(-90deg);
+  -moz-transform: translateY(-50%) rotate(-90deg);
+  -ms-transform: translateY(-50%) rotate(-90deg);
+  -o-transform: translateY(-50%) rotate(-90deg);
+}
+
+/* banner part end  */
+
+/* location */
+.location_main {
+  margin-top: -50px;
+}
+.location_inner {
+  width: 1000px;
+  height: 100px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.location_item {
+  width: 25%;
+  position: relative;
+}
+.location_input {
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: transparent;
+}
+.location_item i {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
